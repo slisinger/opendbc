@@ -278,6 +278,29 @@ FW_VERSIONS = {
       b'68676877AB',
     ],
   },
+  CAR.CHRYSLER_VOYAGER_2025: {
+    (Ecu.abs, 0x747, None): [
+      b'68671413AD',
+    ],
+    (Ecu.combinationMeter, 0x742, None): [
+      b'68718395AA',
+    ],
+    (Ecu.engine, 0x7E0, None): [
+      b'05190388AD ',
+    ],
+    (Ecu.eps, 0x75A, None): [
+      b'68594340AC',
+    ],
+    (Ecu.fwdRadar, 0x753, None): [
+      b'68645752AA',
+    ],
+     (Ecu.srs, 0x744, None): [
+      b'68526663AC',
+    ],
+    (Ecu.transmission, 0x7E1, None): [
+      b'68675107AB',
+    ],
+  }, 
   CAR.JEEP_CHEROKEE_5TH_GEN: {
     (Ecu.combinationMeter, 0x18da60f1, None): [
       b'68492643AC',
