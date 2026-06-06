@@ -59,6 +59,10 @@ class CAR(Platforms):
     ],
     CHRYSLER_PACIFICA_2018_HYBRID.specs,
   )
+  CHRYSLER_VOYAGER_2025 = ChryslerPlatformConfig(
+    [ChryslerCarDocs("Chrysler Voyager 2025")],
+    ChryslerCarSpecs(mass=2378., wheelbase=3.089, steerRatio=16.2, minSteerSpeed=17.5)),
+  )
 
   # Dodge
   DODGE_DURANGO = ChryslerPlatformConfig(
