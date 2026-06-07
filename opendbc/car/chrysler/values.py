@@ -61,7 +61,7 @@ class CAR(Platforms):
   )
   CHRYSLER_VOYAGER_2025 = ChryslerPlatformConfig(
     [ChryslerCarDocs("Chrysler Voyager 2025")],
-    ChryslerCarSpecs(mass=2378., wheelbase=3.089, steerRatio=16.2, minSteerSpeed=17.5)),
+    ChryslerCarSpecs(mass=2378., wheelbase=3.089, steerRatio=16.2, minSteerSpeed=17.5),
   )
 
   # Dodge
